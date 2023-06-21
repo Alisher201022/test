@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if user.age > 5 %}
+    Мне больше пяти
+{% else %}
+    Мне меньше пяти
+{% endif %}
+{% endblock %}
